@@ -34,6 +34,7 @@ public class ArrayTools
 
     // decrypt the string with the same shift value and show results.
     String decryptStr = decrypt(result, shiftValue);
+		System.out.println("decrypting with" + shiftValue);
     System.out.println("The decrypted string is " + decryptStr);
 
     // get the length of the int array to perform functions on..
